@@ -101,7 +101,8 @@ class ElementGetter(object):
 
     if c is None:
       if default is not None:
-        c = default
+        self._children_gotten.add(name)
+        return default
       else:
         raise KeyError("{} child not found in {}".format(
             name, self.element.tag))
