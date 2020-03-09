@@ -5,7 +5,7 @@ with open('README.md') as fp:
 
 setuptools.setup(
     name='pydel',
-    version='0.5.1',
+    version='0.5.2',
     description='Parser for Synthstrom Audible Deluge song files',
     long_description=long_description,
     long_description_content_type='text/markdown',
