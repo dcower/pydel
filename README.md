@@ -4,11 +4,9 @@ Python module for parsing [Synthstrom Audible Deluge](https://synthstrom.com/pro
 
 ## Usage
 
-1. Clone or download the repository.
+1. Install [pip](https://pip.pypa.io/en/stable/installing/).
 
-2. Install [pip](https://pip.pypa.io/en/stable/installing/).
-
-3. Install pydel:
+2. Install pydel:
 ```
 pip install pydel
 ```
